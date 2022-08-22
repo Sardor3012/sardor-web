@@ -4,6 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat';
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        input{
+            width: 438px;
+            height: 56px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        input::placeholder{
+            color: black;
+        }
+        button{
+            width: 445px;
+            height: 56px;
+            border-radius: 10px;
+            border: none;
+            background-color: #0047FF;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        span{
+            color: blue;
+            cursor: pointer;
+        }
+    </style>
+    <div class="regist">
+        <form name="sign_up">
+            <center>
+                <h1 style="font-size: 48px;">Регистрация</h1>
+                <input type="text" placeholder="Почта" name="email"><br><br>
+                <input type="text" placeholder="Имя" name="name"><br><br>
+                <input type="text" placeholder="Фамилия" name="surname"><br><br>
+                <input type="password" placeholder="Пароль" name="password"> <br> <br>
+    
+                <button>Продолжить</button> <br><br>
+                <span>Войти в аккаунт</span>
+            </center>
+        </form>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+=======
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,5 +71,6 @@
 <body>
     
     <script src="./scripts/script.js"></script>
+>>>>>>> eb0ca40496d4088f33b4d0b57a8e828aebaf91f9
 </body>
 </html>
